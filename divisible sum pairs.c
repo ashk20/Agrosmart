@@ -3,6 +3,7 @@ int main()
 {
     int n,k=0,a[1000];
     int i,j=0,count=0;
+    print("enter no of element and dividor");
     scanf("%d %d",&n,&k);
     for(i=0;i<n;i++)
         scanf("%d",&a[i]);
@@ -16,5 +17,6 @@ int main()
                 }
         }
     }
+    printf("count is")
     printf("%d",count);
 }
